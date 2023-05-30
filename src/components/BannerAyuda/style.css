@@ -1,0 +1,47 @@
+.main__container__bannerAyuda {
+    max-width: 1440px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #CCCCCC;
+    border-radius: 40px 8px 40px 8px;
+    position: relative;
+}
+
+.main__container__contactos__BannerAyuda {
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.main__container__bannerAyuda__text {
+    color: #0D4E88;
+    width: 55%
+}
+
+.main__container__bannerAyuda__text>h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 0 16px 0;
+}
+
+.main__container__bannerAyuda__text>h3>span {
+    font-weight: bold;
+}
+
+.main__container__bannerAyuda__text>span {
+    font-weight: bold;
+}
+
+.main__container__bannerAyuda__text>p {
+    color: #0e4168;
+    font-size: 20px;
+    margin: 0;
+}
+
+.main__container__bannerAyuda__customer {
+    padding: 33px 24px 33px 56px;
+}
+

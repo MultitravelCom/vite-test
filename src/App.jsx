@@ -1,5 +1,5 @@
-import './App.css'
 import BannerAyuda from './components/BannerAyuda'
+import BannerTop from './components/BannerTop'
 import ContainerContactos from './components/ContainerContactos'
 
 function App() {
@@ -7,13 +7,45 @@ function App() {
   return (
     <>
       <div className='main__container__contactos'>
-        <div className="main__container__contactos__BannerAyuda">
-          <BannerAyuda />
-        </div>
-        <div className='main__container__contactos__BannerAyuda'>
-          <ContainerContactos />
-          <ContainerContactos />
-          <ContainerContactos />
+        <BannerTop />
+        <div className="main__container__contactos__body">
+          <div className="main__container__contactos__BannerAyuda">
+            <BannerAyuda />
+          </div>
+          <div className='main__container__contactos__BannerAyuda__title'>
+            <div className="main__container__contactos__BannerAyuda__title__h2">
+              <h2>Elegí el canal más conveniente para vos</h2>
+            </div>
+            <div className='main__container__contactos__BannerAyuda'>
+              <ContainerContactos
+                img={"https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/telefono.svg"}
+                title={"Ventas"}
+                number={"0800 3480003"}
+                p_text={"Lunes a viernes de 10 a 20 hs Sábados de 10 a 15 hs"}
+                span_text={"Llamá al número en pantalla para que nuestros especialistas te asesoren con tu compra."}
+                class_color={"class_color_blue"}
+                text_btn={"Llamar"}
+              />
+              <ContainerContactos
+                img={"https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/wsp.svg"}
+                title={"Consultas por venta"}
+                number={"11 4979 1877"}
+                p_text={"De lunes a viernes de 20 a 10hs Sábados de 15hs a 10hs"}
+                span_text={"Dejanos tu consulta y te contactaremos en nuestro horario de atención."}
+                class_color={"class_color_green"}
+                text_btn={"Enviar mensaje"}
+              />
+              <ContainerContactos
+                img={"https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/telefono.svg"}
+                title={"Consultas"}
+                number={"info@multitravel.com"}
+                p_text={"Contactate con nuestros especialistas las 24hs del día"}
+                span_text={"Mándanos tu consulta vía mail y te estaremos respondiendo a la brevedad."}
+                class_color={"class_color_black"}
+                text_btn={"Enviar mail"}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

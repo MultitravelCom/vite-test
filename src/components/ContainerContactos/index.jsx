@@ -1,22 +1,24 @@
 import ButtonModalLink from "../Button";
 
-const ContainerContactos = () => {
+const ContainerContactos = ({ img, title, number, p_text, span_text, class_color, text_btn, class_color_background }) => {
     return (
         <div className="main__container__ContainerContactos col-md-4 col-xs-12">
-            <div className="main__container__ContainerContactos__title">
-                <div className="main__container__ContainerContactos__title__icon">
-
+            <div className={`main__container__ContainerContactos__title ${class_color}`}>
+                <div className="main__container__ContainerContactos_text_icon">
+                    <div className={`main__container__ContainerContactos__title__icon ${class_color}`}>
+                        <img src={img}></img>
+                    </div>
+                    <div className={`main__container__ContainerContactos__title__number ${class_color}`}>
+                        <p>{title}</p>
+                        <h3>{number}</h3>
+                    </div>
                 </div>
-                <div className="main__container__ContainerContactos__title__number">
-                    <p>Ventas</p>
-                    <h3>0800 348 0003</h3>
+                <div className="main__container__ContainerContactos_horarios">
+                    <p>{p_text}</p>
+                    <span>{span_text}</span>
                 </div>
             </div>
-            <div>
-                <p>Lunes a viernes de 10 a 20 hs Sábados de 10 a 15 hs</p>
-                <span>Llamá al número en pantalla para que nuestros especialistas te asesoren con tu compra.</span>
-            </div>
-            <ButtonModalLink/>
+            <ButtonModalLink text={text_btn} style={`styleBtn__containerContactos ${class_color_background}`}/>
         </div>
     )
 }

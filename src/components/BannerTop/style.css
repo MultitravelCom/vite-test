@@ -1,0 +1,33 @@
+.main__container__bannerTop {
+    display: flex;
+    width: 100%;
+    height: 258px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+    background-color: #35a0ff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main__container__bannerTop__img {
+    width: 423px;
+    height: 258px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.main__container__bannerTop_title{
+    width: 100%;
+}
+.main__container__bannerTop_title>h1{
+    font-size: 48px;
+}
+.main__container__bannerTop_title>p{
+    font-size: 24px;
+}
+
+.main__container__bannerTop__img>img {
+    width: 100%;
+    height: 100%;
+}

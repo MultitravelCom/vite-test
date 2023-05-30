@@ -1,0 +1,75 @@
+.main__container__ContainerContactos{
+    height: 292px;
+    width: 459px;
+    background: #FBFBFB;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px 8px 8px 40px;
+}
+.main__container__ContainerContactos__title__icon{
+    width: 60px;
+    background: black;
+    height: 89px;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+    margin-left: 32px;
+}
+.main__container__ContainerContactos__title__icon>img{
+    position: absolute;
+    bottom: 8px;
+    padding: 16px;
+}
+.main__container__ContainerContactos_text_icon{
+    display: flex;
+    align-items: flex-end;
+}
+.main__container__ContainerContactos__title__number{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 8px;
+}
+.main__container__ContainerContactos__title__number>h3{
+    font-weight: bold;
+}
+.main__container__ContainerContactos__title__number>p{
+    margin: 0 !important;
+}
+.main__container__ContainerContactos_horarios{
+    width: 71%;
+    margin: auto;
+    padding: 1px 16px;
+}
+.main__container__ContainerContactos_horarios>p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 6px 0 6px 0px !important;
+}
+.main__container__ContainerContactos_horarios>span{
+    font-size: 16px;
+    color: #8c8c8c;
+    font-style: italic;
+}
+.styleBtn__containerContactos{
+    max-width: 301px;
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid #0d4e88;
+    background: #0d4e88;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    right: 65px;
+    bottom: 18px;
+}
+.class_color_blue{
+    color: #0d4e88;
+    background-color: #0d4e88;
+}
+.class_color_green{
+    color: #26bd4c;
+    background-color: #26bd4c;
+}
+.class_color_black{
+    color: #26bd4c;
+    background-color: #26bd4c;
+}
