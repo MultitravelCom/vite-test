@@ -5,7 +5,7 @@ function BannerAyuda() {
     return (
         <div className="main__container__bannerAyuda">
             <div className="main__container__bannerAyuda__customer">
-                <img src="https://raw.githubusercontent.com/MultitravelCom/vite-test/main/src/assets/Customer-desktop.svg"></img>
+                <img src="https://raw.githubusercontent.com/MultitravelCom/vite-test/main/public/Customer-desktop.svg"></img>
             </div>
             <div className="main__container__bannerAyuda__text">
                 <h3>¿Tenés dudas acerca de tu reserva? <span>Estamos para ayudarte</span></h3>
