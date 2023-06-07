@@ -32,6 +32,7 @@ function App() {
                 link="0800 3480003"
                 callToPhone={true}
                 contactType="whatsapp"
+                borderRadius={"border-container-left"}
               />
               <ContainerContactos
                 img={
@@ -51,6 +52,7 @@ function App() {
                 link="1149791877"
                 callToPhone={false}
                 contactType="whatsapp"
+                borderRadius={"border-container-center"}
               />
               <ContainerContactos
                 img={
@@ -70,6 +72,7 @@ function App() {
                 link="info@multitravel.com"
                 callToPhone={false}
                 contactType="email"
+                borderRadius={"border-container-right"}
               />
             </div>
           </div>

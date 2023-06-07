@@ -12,20 +12,18 @@ const ContainerContactos = ({
   link,
   callToPhone,
   contactType,
+  borderRadius,
 }) => {
   return (
-    <div className="main__container__ContainerContactos col-md-4 col-xs-12">
+    <div className={`main__container__ContainerContactos col-md-4 col-xs-12 ${borderRadius}`}>
       <div
-        className={`main__container__ContainerContactos__title ${class_color}`}
-      >
+        className={`main__container__ContainerContactos__title ${class_color}`} >
         <div className="main__container__ContainerContactos_text_icon">
-          <div
-            className={`main__container__ContainerContactos__title__icon ${class_color_background}`}
+          <div className={`main__container__ContainerContactos__title__icon ${class_color_background}`}
           >
             <img src={img}></img>
           </div>
-          <div
-            className={`main__container__ContainerContactos__title__number ${class_color}`}
+          <div className={`main__container__ContainerContactos__title__number ${class_color}`}
           >
             <p>{title}</p>
             <h3>{number}</h3>
