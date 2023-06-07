@@ -1,6 +1,6 @@
 .main__container__bannerAyuda {
     max-width: 1440px;
-    height: 160px;
+    min-height: 160px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
