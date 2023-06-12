@@ -56,7 +56,7 @@ function App() {
               />
               <ContainerContactos
                 img={
-                  "https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/telefono.svg"
+                  "https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/Mail.svg"
                 }
                 title={"Consultas"}
                 number={"info@multitravel.com"}
