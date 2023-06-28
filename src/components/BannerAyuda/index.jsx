@@ -8,10 +8,10 @@ function BannerAyuda() {
                 <img src="https://raw.githubusercontent.com/MultitravelCom/vite-test/main/public/Customer-desktop.svg"></img>
             </div>
             <div className="main__container__bannerAyuda__text">
-                <h3>¿Tenés dudas acerca de tu reserva? <span>Estamos para ayudarte</span></h3>
-                <p>Si ya realizaste tu compra y tenés alguna consulta, no dudes en comunicarte con nuestros especialistas en viajes vía WhatsApp al <span>11 4960 8454</span>.</p>
+                <h3>Tem dúvidas sobre a sua reserva? <span>Estamos aqui para ajudá-lo</span></h3>
+                <p>Se você já fez sua compra e tem alguma dúvida, não hesite em entrar em contato com nossos especialistas em viagens pelo WhatsApp<span> XX XXXX XXXX</span>.</p>
             </div>
-            <ButtonModalLink text="Enviar mensaje" style="styleBtn__BannerAyuda" link="1149608454" callToPhone={false} contactType="whatsapp" />
+            <ButtonModalLink text="Enviar mensagem" style="styleBtn__BannerAyuda" link="1149608454" callToPhone={false} contactType="whatsapp" />
         </div>
     );
 }

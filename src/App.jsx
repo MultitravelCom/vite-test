@@ -13,7 +13,7 @@ function App() {
           </div>
           <div className="main__container__contactos__BannerAyuda__title">
             <div className="main__container__contactos__BannerAyuda__title__h2">
-              <h2>Elegí el canal más conveniente para vos</h2>
+              <h2>Eu escolhi o canal mais conveniente para você</h2>
             </div>
             <div className="main__container__contactos__BannerAyuda">
               <ContainerContactos
@@ -21,16 +21,16 @@ function App() {
                   "https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/telefono.svg"
                 }
                 title={"Ventas"}
-                number={"0800 3480003"}
-                p_text={"Lunes a viernes de 10 a 20 hs Sábados de 10 a 15 hs"}
+                number={"XXXX XXX XXXX"}
+                p_text={"De segunda a sexta das 10h às 20h. Sábados das 10h às 15h."}
                 span_text={
-                  "Llamá al número en pantalla para que nuestros especialistas te asesoren con tu compra."
+                  "Ligue para o número na tela para que nossos especialistas possam aconselhá-lo em sua compra."
                 }
                 class_color={"class_color_blue"}
                 class_color_background={"class_color_background_blue"}
                 text_btn={"Llamar"}
-                link="0800 3480003"
-                callToPhone={true}
+                link="XXXX XXX XXXX"
+                callToPhone={false}
                 contactType="whatsapp"
                 borderRadius={"border-container-left"}
               />
@@ -38,18 +38,18 @@ function App() {
                 img={
                   "https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/wsp.svg"
                 }
-                title={"Consultas por venta"}
-                number={"11 4979 1877"}
+                title={"consultas para venda"}
+                number={"XX XXXX XXXX"}
                 p_text={
-                  "De lunes a viernes de 20 a 10hs Sábados de 15hs a 10hs"
+                  "De segunda a sexta-feira das 20h00 às 10h00. Sábados das 15h00 às 10h00."
                 }
                 span_text={
-                  "Dejanos tu consulta y te contactaremos en nuestro horario de atención."
+                  "Deixe-nos a sua questão e entraremos em contacto durante o nosso horário de expediente."
                 }
                 class_color={"class_color_green"}
                 class_color_background={"class_color_background_green"}
-                text_btn={"Enviar mensaje"}
-                link="1149791877"
+                text_btn={"Enviar mensagem"}
+                link="XX XXXX XXXX"
                 callToPhone={false}
                 contactType="whatsapp"
                 borderRadius={"border-container-center"}
@@ -59,16 +59,16 @@ function App() {
                   "https://raw.githubusercontent.com/MultitravelCom/vite-test/gh-pages/Mail.svg"
                 }
                 title={"Consultas"}
-                number={"info@multitravel.com"}
+                number={"xxxx@xxxxxxxxx.xxxx"}
                 p_text={
-                  "Contactate con nuestros especialistas las 24hs del día"
+                  "Entre em contato com nossos especialistas 24 horas por dia"
                 }
                 span_text={
-                  "Mándanos tu consulta vía mail y te estaremos respondiendo a la brevedad."
+                  "Envie-nos sua dúvida por e-mail e responderemos o mais breve possível."
                 }
                 class_color={"class_color_black"}
                 class_color_background={"class_color_background_black"}
-                text_btn={"Enviar mail"}
+                text_btn={"Enviar email"}
                 link="info@multitravel.com"
                 callToPhone={false}
                 contactType="email"

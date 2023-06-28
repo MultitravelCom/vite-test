@@ -4,8 +4,8 @@ const BannerTop = () => {
     return (
       <div className="main__container__bannerTop">
         <div className="main__container__bannerTop_title">
-          <h1>Contactate con nuestros especialistas</h1>
-          <p>Comprá con atención personalizada por cualquiera de nuestros canales.</p>
+          <h1>Entre em contato com nossos especialistas</h1>
+          <p>Compre com atendimento personalizado através de qualquer um de nossos canais.</p>
         </div>
         <div className="main__container__bannerTop__img">
           <picture>
